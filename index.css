@@ -6,7 +6,7 @@
 .container__content__item:hover{
     font-weight: bold;
 }
-.container__content__item:hover .item-desc {
+.container__content__item:hover .item-desc__index {
     max-height: 65%;
     overflow: hidden;
     font-weight: normal;
