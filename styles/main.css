@@ -2,6 +2,7 @@
 @import "landmarks.css";
 @import "cities.css";
 @import "citizens.css";
+@import "../index.css";
 
 
 /*Typography
@@ -52,7 +53,7 @@ nav{
 	  border-radius: 5px;
 	  border: 2px inset black;
 	  box-shadow: 5px 8px 16px 3px rgba(0,0,0,0.2);
-	  background: linear-gradient(to top, #3399ff 0%, #99ccff 67%)
+	  background: linear-gradient(to bottom, #ffff99 0%, #ffcc66 100%);
   }
   .disabled{
 	  text-decoration: line-through;
@@ -63,6 +64,36 @@ nav{
 body{
 	background-image: url("https://images.freeimages.com/images/large-previews/625/light-house-on-a-skerry-1056846.jpg");
 }
-footer{
+.copyright{
 	color: white;
 }
+.index{
+	background: url("https://wallpapercave.com/wp/yE9vEkD.jpg");
+	background-size: cover;
+}
+.img-link{
+	display: flex;
+	flex-direction: column;
+}
+.adriatic-link{
+	width: 95px;
+	/* border: 2px solid green; */
+	position: absolute;
+	bottom: 52%;
+	right: 46.5%;
+}
+.norway-link{
+	width: 80px;
+	/* border: 2px solid red; */
+	position: absolute;
+	bottom: 71.3%;
+	right: 48%;
+}
+.japan-link{
+	width: 65px;
+	/* border: 2px solid blue; */
+	position: absolute;
+	bottom: 50.4%;
+	right: 16.3%;
+}
+
