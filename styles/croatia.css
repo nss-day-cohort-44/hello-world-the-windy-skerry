@@ -1,0 +1,119 @@
+body {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+nav {
+    background-color: gold;
+    max-height: 300px;
+    
+}
+
+.nav__pic {
+    height: 300px;
+	width: 100%;
+    object-fit: cover;
+    
+}
+nav:hover {
+    background-color: coral;
+}
+
+body {
+    background-color: dodgerblue;
+    background: ;
+}
+
+.top-image {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+.box__top-image {
+
+	max-height: 300px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    
+}
+
+.cities {
+background-color: gold;
+
+    }
+.cities:hover {
+        
+        background-color: coral;
+        
+        }
+
+.landmarks {
+background-color: gold;
+}
+.landmarks:hover {
+background-color: coral;
+}
+
+.citizens {
+background-color: gold;
+}
+.citizens:hover {
+background-color: coral;
+}
+
+footer {
+    margin-top: 300px;
+    text-align: center;
+}
+.cities {
+    height: 100px;
+}
+.cities__pic {
+   height: 100px;
+   width: 200px;
+}
+.citizens {
+    height: 100px;
+}
+.citizens__pic {
+   height: 100px;
+   width: 200px;
+}
+.landmarks {
+    height: 100px;
+}
+.landmarks__pic {
+   height: 100px;
+   width: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    color: gold;
+}
+h1:hover {
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    color: coral;
+}
+
+
+
+.h1__box {
+    max-height: 300px;
+}
+
+.h1__box__pic {
+    height: 300px;
+	width: 100%;
+	object-fit: fill;
+}
+
+p {
+    font-size: xx-small;
+}
