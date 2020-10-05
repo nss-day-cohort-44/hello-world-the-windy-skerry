@@ -11,7 +11,7 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: white;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
@@ -24,4 +24,19 @@ h1,h2,h3,h4,h5,h6 {
 
 .container {
 	display: flex;
+	text-align: left;
+	flex-direction: row;
+}
+.container__images {
+	max-width: 300px;
+	height: auto;
+}
+section {
+	display: flex;
+	flex-direction: column;
+}
+.nav__bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
