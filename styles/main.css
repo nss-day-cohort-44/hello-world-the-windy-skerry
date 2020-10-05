@@ -52,6 +52,7 @@ nav{
 	  border-radius: 5px;
 	  border: 2px inset black;
 	  box-shadow: 5px 8px 16px 3px rgba(0,0,0,0.2);
+	  background: linear-gradient(to top, #3399ff 0%, #99ccff 67%)
   }
   .disabled{
 	  text-decoration: line-through;
