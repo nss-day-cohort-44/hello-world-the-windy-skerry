@@ -2,3 +2,66 @@
 .container__landmarks {
     
 }
+
+`@import url("https://fonts.googleapis.com/css?family=Comfortaa%7CPatua+One");
+@import "landmarks.css";
+@import "cities.css";
+@import "citizens.css";
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+.country{
+    justify-content: center;
+}
+.country__img{
+    width: 400px;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+}
+body{
+    text-align: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 35px;
+}
+  header{
+      border-radius: 5px;
+      border: 2px inset black;
+      box-shadow: 5px 8px 16px 3px rgba(0,0,0,0.2);
+      background: linear-gradient(to top, #3399FF 0%, #99CCFF 67%)
+  }
+  .disabled{
+      text-decoration: line-through;
+  }
+  .dropdown{
+      text-align: center;
+  }
+body{
+    background-image: url("https://images.freeimages.com/images/large-previews/625/light-house-on-a-skerry-1056846.jpg");
+}
+footer{
+    color: white;
+}`
