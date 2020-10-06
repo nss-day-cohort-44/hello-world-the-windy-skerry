@@ -70,8 +70,9 @@ nav {
 
 .country-img {
 	width: 100%;
-	border: px solid aliceblue;
+
 	max-height: 500px;
+	border: 1px solid aliceblue;
 }
 
 .container {
