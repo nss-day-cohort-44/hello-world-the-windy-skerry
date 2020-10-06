@@ -1,23 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import "landmarks.css";
-@import "cities.css";
-@import "citizens.css";
 @import "../index.css";
 
 
-/*Typography
---------------------------------------------------------------*/
+
 body,
 button,
 input,
 select,
 textarea {
-<<<<<<< HEAD
-	color: white;
-=======
 	background-color: #2c2c2c;
 	color: #e4e4e4;
->>>>>>> master
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
@@ -78,28 +70,12 @@ nav {
 
 .country-img {
 	width: 100%;
-	border: 1px solid aliceblue;
+	border: px solid aliceblue;
+	max-height: 500px;
 }
 
 .container {
 	display: flex;
-<<<<<<< HEAD
-	text-align: left;
-	flex-direction: row;
-}
-.container__images {
-	max-width: 300px;
-	height: auto;
-}
-section {
-	display: flex;
-	flex-direction: column;
-}
-.nav__bar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-=======
 	justify-content: space-between;
 }
 
@@ -157,5 +133,4 @@ footer {
 
 .item-desc {
 	display: none;
->>>>>>> master
 }
