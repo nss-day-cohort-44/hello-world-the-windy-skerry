@@ -1,55 +1,55 @@
-.container__content__item__index {
-    color: antiquewhite;
-    margin: 0.5em;
-    width: fit-content;
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	justify-content: center;
 }
-.container__content__item__index:hover{
-    font-weight: bold;
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
 }
-.container__content__item__index:hover .item-desc__index {
-    max-height: 65%;
-    overflow: hidden;
-    font-weight: normal;
-    display: block;
-    background-color: rgba(0,0,0,0.8);
-    border: 1px solid white;
-    position: absolute;
-    left: 43.5%;
-    bottom: 50%;
-    padding: 0.5em;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-	width: 10%;
-	margin: 0 auto;
-}
-.item-desc__index {
-    display: none;
-}
-.index{
-	background: url("https://wallpapercave.com/wp/yE9vEkD.jpg");
-	background-size: cover;
-}
-.img-link{
+
+#container-index{
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
-.adriatic-link{
-	width: 95px;
-	/* border: 2px solid green; */
-	position: absolute;
-	bottom: 52%;
-	right: 46.5%;
+
+.norway-link, .italy-link, .croatia-link, .japan-link{
+	width: 300px;
+	box-shadow: 3px 6px 13px 1px rgba(0,0,0,0.5)
 }
-.norway-link{
-	width: 80px;
-	/* border: 2px solid red; */
-	position: absolute;
-	bottom: 71.3%;
-	right: 48%;
+.norway-link:hover, .italy-link:hover, .croatia-link:hover, .japan-link:hover{
+	transition: .3s;
+	box-shadow: 0px 6px 13px 1px rgba(0,0,0,4), 0px 20px 28px 12px rgba(0, 0, 0, 0.19);
 }
-.japan-link{
-	width: 65px;
-	/* border: 2px solid blue; */
-	position: absolute;
-	bottom: 50.4%;
-	right: 16.3%;
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:2%;
+}
+
+.footer-index{
+
+	margin-top: 2.7%;
+	color: white;
+}
+body{
+	background-color:#2C2C2C ;
 }
