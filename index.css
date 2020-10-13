@@ -34,21 +34,18 @@
 }
 .adriatic-link{
 	width: 95px;
-	/* border: 2px solid green; */
 	position: absolute;
 	bottom: 52%;
 	right: 46.5%;
 }
 .norway-link{
 	width: 80px;
-	/* border: 2px solid red; */
 	position: absolute;
 	bottom: 71.3%;
 	right: 48%;
 }
 .japan-link{
 	width: 65px;
-	/* border: 2px solid blue; */
 	position: absolute;
 	bottom: 50.4%;
 	right: 16.3%;
