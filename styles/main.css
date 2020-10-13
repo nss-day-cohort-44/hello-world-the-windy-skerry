@@ -101,6 +101,25 @@ footer {
 	margin: 0.5em 1em;
 	width: 100%;
 }
+.container__content__landmarks {
+	background-color: #525252;
+	border: 3px solid black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 2em;
+	margin: 0.5em 1em;
+	width: 100%;
+}
+.container__content__citizens {
+	background-color: #525252;
+	border: 3px solid black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 2em;
+	margin: 0.5em 1em;
+	width: 100%;
+}
+
 
 .container__content__item {
 	color: antiquewhite;
