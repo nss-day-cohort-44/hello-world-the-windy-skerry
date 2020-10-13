@@ -31,7 +31,7 @@ a {
 	padding: inherit;
 }
 
-a:hover {
+.country-link:hover {
 	background-color: #525252;
 	border-radius: 15px;
 }
