@@ -92,7 +92,7 @@ footer {
 
 }
 
-.container__content {
+.container__content__cities, .container__content__landmarks, .container__content__citizens {
 	background-color: #525252;
 	border: 3px solid black;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
