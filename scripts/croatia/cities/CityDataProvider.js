@@ -15,21 +15,7 @@ const cityList = [
         desc: "Split is Croatia's second-largest city and the largest city in the Dalmatia region. It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings."
         
     },
-    {
-        name: "Split",
-        desc: "Split is Croatia's second-largest city and the largest city in the Dalmatia region. It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings."
-        
-    },
-    {
-        name: "Split",
-        desc: "Split is Croatia's second-largest city and the largest city in the Dalmatia region. It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings."
-        
-    },
-    {
-        name: "Split",
-        desc: "Split is Croatia's second-largest city and the largest city in the Dalmatia region. It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings."
-        
-    },
+
 ]
 
 export const useCities = () => {
