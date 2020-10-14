@@ -17,26 +17,8 @@ const LandmarkList = [
         desc: "Diocletian's Palace is an ancient palace built for the Roman emperor Diocletian at the turn of the fourth century AD, which today forms about half the old town of Split, Croatia. While it is referred to as a 'palace' because of its intended use as the retirement residence of Diocletian, the term can be misleading as the structure is massive and more resembles a large fortress: about half of it was for Diocletian's personal use, and the rest housed the military garrison. The complex was built on a peninsula six kilometers southwest from Salona, the capital of Dalmatia, one of the largest cities of the late empire with 60,000 people and the birthplace of Diocletian.",
         
     },
-    {
-        name: "Diocletian's Palace",
-        desc: "Diocletian's Palace is an ancient palace built for the Roman emperor Diocletian at the turn of the fourth century AD, which today forms about half the old town of Split, Croatia. While it is referred to as a 'palace' because of its intended use as the retirement residence of Diocletian, the term can be misleading as the structure is massive and more resembles a large fortress: about half of it was for Diocletian's personal use, and the rest housed the military garrison. The complex was built on a peninsula six kilometers southwest from Salona, the capital of Dalmatia, one of the largest cities of the late empire with 60,000 people and the birthplace of Diocletian.",
-        
-    },
-    {
-        name: "Diocletian's Palace",
-        desc: "Diocletian's Palace is an ancient palace built for the Roman emperor Diocletian at the turn of the fourth century AD, which today forms about half the old town of Split, Croatia. While it is referred to as a 'palace' because of its intended use as the retirement residence of Diocletian, the term can be misleading as the structure is massive and more resembles a large fortress: about half of it was for Diocletian's personal use, and the rest housed the military garrison. The complex was built on a peninsula six kilometers southwest from Salona, the capital of Dalmatia, one of the largest cities of the late empire with 60,000 people and the birthplace of Diocletian.",
-        
-    },
-    {
-        name: "Diocletian's Palace",
-        desc: "Diocletian's Palace is an ancient palace built for the Roman emperor Diocletian at the turn of the fourth century AD, which today forms about half the old town of Split, Croatia. While it is referred to as a 'palace' because of its intended use as the retirement residence of Diocletian, the term can be misleading as the structure is massive and more resembles a large fortress: about half of it was for Diocletian's personal use, and the rest housed the military garrison. The complex was built on a peninsula six kilometers southwest from Salona, the capital of Dalmatia, one of the largest cities of the late empire with 60,000 people and the birthplace of Diocletian.",
-        
-    },
-    {
-        name: "Diocletian's Palace",
-        desc: "Diocletian's Palace is an ancient palace built for the Roman emperor Diocletian at the turn of the fourth century AD, which today forms about half the old town of Split, Croatia. While it is referred to as a 'palace' because of its intended use as the retirement residence of Diocletian, the term can be misleading as the structure is massive and more resembles a large fortress: about half of it was for Diocletian's personal use, and the rest housed the military garrison. The complex was built on a peninsula six kilometers southwest from Salona, the capital of Dalmatia, one of the largest cities of the late empire with 60,000 people and the birthplace of Diocletian.",
-        
-    },
+    
+    
 ]
 
 export const useLandmarks = () => {

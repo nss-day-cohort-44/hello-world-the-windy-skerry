@@ -15,21 +15,7 @@ const CelebrityList = [
         desc: "Slavenka Drakulić is a Croatian journalist, novelist, and essayist whose works on feminism, communism, and post-communism have been translated into many languages. Drakulić was born in Rijeka, Croatia, on July 4, 1949. She graduated in comparative literature and sociology from the University in Zagreb in 1976.",
         
     },
-    {
-        name: "Slavenka Drakulić",
-        desc: "Slavenka Drakulić is a Croatian journalist, novelist, and essayist whose works on feminism, communism, and post-communism have been translated into many languages. Drakulić was born in Rijeka, Croatia, on July 4, 1949. She graduated in comparative literature and sociology from the University in Zagreb in 1976.",
-        
-    },
-    {
-        name: "Slavenka Drakulić",
-        desc: "Slavenka Drakulić is a Croatian journalist, novelist, and essayist whose works on feminism, communism, and post-communism have been translated into many languages. Drakulić was born in Rijeka, Croatia, on July 4, 1949. She graduated in comparative literature and sociology from the University in Zagreb in 1976.",
-        
-    },
-    {
-        name: "Slavenka Drakulić",
-        desc: "Slavenka Drakulić is a Croatian journalist, novelist, and essayist whose works on feminism, communism, and post-communism have been translated into many languages. Drakulić was born in Rijeka, Croatia, on July 4, 1949. She graduated in comparative literature and sociology from the University in Zagreb in 1976.",
-        
-    },
+    
 ]
 
 export const useCelebrity = () => {
