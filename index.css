@@ -24,15 +24,23 @@ h1,h2,h3,h4,h5,h6 {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 5%;
+	margin-top: 3.4%;
 	margin-left: 2%;
 	margin-right: 2%;
 }
 
 .norway-link, .italy-link, .croatia-link, .japan-link{
 	width: 300px;
-	box-shadow: 3px 6px 13px 1px rgba(0,0,0,0.5)
+	box-shadow: 3px 6px 13px 1px rgba(0,0,0,0.5);
+	animation-name: fade-in;
+	animation-duration: 3s;
 }
+
+@keyframes fade-in {
+	from {opacity:0%;}
+	to {opacity:100%;}
+  }
+
 .norway-link:hover, .italy-link:hover, .croatia-link:hover, .japan-link:hover{
 	transition: .3s;
 	box-shadow: 0px 6px 13px 1px rgba(0,0,0,4), 0px 20px 28px 12px rgba(0, 0, 0, 0.19);
@@ -42,12 +50,15 @@ h1,h2,h3,h4,h5,h6 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top:2%;
+	margin-top: 1.5%;
+	animation-name: fade-in;
+	animation-duration: 3s;
 }
 
 .footer-index{
-
-	margin-top: 2.7%;
+	/* animation-name: fade-in;
+	animation-duration: 3s; */
+	margin-top: 6.7%;
 	color: white;
 }
 body{

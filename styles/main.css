@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Alegreya+Sans+SC:wght@300&display=swap');
 @import "../index.css";
 
 
@@ -10,8 +10,8 @@ select,
 textarea {
 	background-color: #2c2c2c;
 	color: #e4e4e4;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 18px;
 	line-height: 1.5;
 	width: 90%;
 	display: flex;
@@ -20,7 +20,7 @@ textarea {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 2px;
 }
 
@@ -61,7 +61,6 @@ nav {
 	border-left: none;
 	border-right: none;
 	border-radius: 10px;
-	padding: 2em;
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
@@ -135,10 +134,10 @@ footer {
 	display: inline-block;
 	background-color: rgba(0,0,0,0.8);
 	border: 1px solid white;
-	position: absolute;
+	position: fixed;
 	padding: 0.5em;
 	left: 20%;
-	bottom: 30%;
+	bottom: 400px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 	width: 60%;
 }
@@ -153,4 +152,8 @@ footer {
 
 .item-desc {
 	display: none;
+}
+
+.country-logo{
+	width:35%;
 }
